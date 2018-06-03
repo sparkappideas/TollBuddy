@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#00AA8D</color>
+    <color name="colorPrimaryDark">#008975</color>
+    <color name="colorAccent">#00BF9A</color>
+
+    <color name="default_screen_bg">#f9f9f9</color>
+
+    <color name="toolTipColor">#05ab9a</color>
+
+    <color name="indigo">#4B0082</color>
+
+    <color name="black_overlay">#66000000</color>
+</resources>

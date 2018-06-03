@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "474228190530",
+    "firebase_url": "https://toll-buddy.firebaseio.com",
+    "project_id": "toll-buddy",
+    "storage_bucket": "toll-buddy.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:474228190530:android:7d8842450039d3bc",
+        "android_client_info": {
+          "package_name": "in.spark.idea.tollbuddy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "474228190530-4195ejvhqa4kqr84m7h7aactpv5nikcn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBiYn_HBxz06AJslUxVbjjFH9n_oRt6qWk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

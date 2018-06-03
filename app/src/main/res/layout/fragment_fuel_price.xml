@@ -1,0 +1,81 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="in.spark.idea.tollbuddy.FuelPrice">
+
+    <ProgressBar
+        android:id="@+id/fuelloading"
+        style="@style/Widget.AppCompat.ProgressBar"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/activity_vertical_margin"
+        android:orientation="vertical">
+
+        <com.weiwangcn.betterspinner.library.material.MaterialBetterSpinner
+            android:id="@+id/spn_cities"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Select City"
+            android:textColorHint="@color/toolTipColor"
+            android:layout_margin="5dp"
+            app:met_floatingLabel="normal" />
+
+
+        <Button
+            android:id="@+id/btngetfuel"
+            android:layout_margin="5dp"
+            android:theme="@style/MyButton"
+            android:textColor="@android:color/white"
+            android:textAllCaps="true"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+            android:text="Get Fuel Price"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+        <TextView
+            android:id="@+id/lblpetrolprice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+            android:textColor="@color/colorAccent"/>
+
+        <TextView
+            android:id="@+id/lbldieselprice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+            android:textColor="@color/colorAccent"/>
+
+
+
+    </LinearLayout>
+
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/fuelbottomBanner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/banner_fulebottom_ad_unit_id">
+    </com.google.android.gms.ads.AdView>
+
+
+</RelativeLayout>
